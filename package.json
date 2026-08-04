@@ -2,26 +2,27 @@
   "name": "awesome-react-starter",
   "version": "3.0.1",
   "description": "The awesome React and Next.js starter project from Chess Coders",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next build && next export",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "type-check": "tsc --noEmit"
-  },
   "keywords": [
     "react",
     "nextjs",
     "tailwindcss",
     "starter"
   ],
-  "author": "victorocna <victor@chesscoders.com> (https://chesscoders.com)",
   "license": "MIT",
-  "engines": {
-    "node": "^22.11.0",
-    "npm": "^10.9.0"
+  "author": "victorocna <victor@chesscoders.com> (https://chesscoders.com)",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
+  },
+  "overrides": {
+    "brace-expansion": "^5.0.9",
+    "postcss": "^8.5.15",
+    "sharp": "^0.35.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -74,8 +75,8 @@
     "prettier": "^3.6.2",
     "typescript": "^6.0.3"
   },
-  "overrides": {
-    "postcss": "^8.5.15",
-    "sharp": "^0.35.0"
+  "engines": {
+    "node": "^22.11.0",
+    "npm": "^10.9.0"
   }
 }
