@@ -37,6 +37,7 @@
       "@lib": ["./lib/index"],
       "@lib/*": ["./lib/*"],
       "@models/*": ["./models/*"],
+      "@plugins/*": ["./plugins/*"],
       "@site.config": ["./site.config"]
     }
   },

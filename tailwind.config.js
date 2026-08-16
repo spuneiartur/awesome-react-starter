@@ -17,6 +17,7 @@ module.exports = {
     './components/**/*.jsx', // all components
     './examples/**/*.jsx', // all examples
     './pages/**/*.js', // all pages as well
+    './plugins/**/*.jsx', // optional plugins, eg the Google login button
   ],
   plugins: [
     require('@tailwindcss/forms')({

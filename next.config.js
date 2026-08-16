@@ -6,6 +6,7 @@ module.exports = {
     API_BASE_URL: process.env.API_BASE_URL,
     APP_BASE_URL: process.env.APP_BASE_URL,
     FONT_AWESOME_KEY: process.env.FONT_AWESOME_KEY,
+    GOOGLE_AUTH_ENABLED: process.env.GOOGLE_AUTH_ENABLED,
     JWT_TOKEN_NAME: process.env.JWT_TOKEN_NAME,
     MAINTENANCE_MODE: process.env.MAINTENANCE_MODE,
     RECAPTCHA_SITE_KEY: process.env.RECAPTCHA_SITE_KEY,
